@@ -5,3 +5,7 @@ rvm:
   - 2.4.2
   - 2.5.0
 before_install: gem install bundler -v 1.16.1
+notifications:
+  email: false
+  slack:
+    secure: LfGmQIqMe6dGcIYtADZ//nDsJk4UWEprOnhfEaZ6L5kH0C6bjt6j+kAufzToeXDhSV46eXNIiwZui6eCVTPsjiUAVjMrOiwW6fWvnRpSh5xvKWb4+Sex53JzFOSt4Bg3/cPEz0jrF+FGLVhaB0yfe7/lRar9JVGEV38M8ghjkQRxyAx0dcqzLh0AWPKrldie+OdX7uE2I4J8utndVT7b5sT8HLDWK7kUfD6RFnz4wlRbHZASS1rJv2CJKZ/zm/MUN5/x1WuLKxZdC7X6uO7wbHugr5b/VwCMiohRwg0tpdr2RVQXmoond51kLkHqv4CSlBkibpr5OrGN6cWQEf4wrPuOMmOpKTrXQNk6wbkeUDfIBQv4B3HJt5Icb1pueSnxST6LJYEQNx3lGibMC8Fo765EoeZM0iMqr1vFFcZGbf5nbHLQR2esb2TdB1u7BIyv+KndzSdgsKina8xDk8xf4zTcUjkb8S8NUwg/xFDy0Kmlciaa9ZiEqYRKgH2+Wa0WfdXdaEgp3MvJRlNw3Di3qZrf4YIAecvp0rDmAt+IVSKeeP30SS0nOmX3RcrkvskyRlS/QNWBJFsECuteCwRf/6HiIwsiMrndHPrfyDIOKZnzDxwjwWpGcUZ/HeLwLxY5106Hx8bofcfpftal4xFb/YSE1J3E5AMFkK5OIWurljY=
