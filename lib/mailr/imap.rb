@@ -1,7 +1,7 @@
 require 'net/imap'
 
 module Mailr
-  class ImapClient
+  class Imap
     include Mailr::Configurable
 
     def search

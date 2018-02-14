@@ -1,16 +1,16 @@
 require "mailr/version"
 require 'mailr/configurable'
-require "mailr/imap_client"
+require "mailr/imap"
 
 module Mailr
   class << self
-    def imap_client
-      @imap_client ||= Mailr::ImapClient.new
+    def imap
+      @imap ||= Mailr::Imap.new
     end
 
     def method_missing(method_name, *args, &block)
-      if imap_client.respond_to?(method_name)
-        return imap_client.send(method_name, *args, &block)
+      if imap.respond_to?(method_name)
+        return imap.send(method_name, *args, &block)
       end
 
       super
