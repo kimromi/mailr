@@ -11,4 +11,6 @@ require "mailr"
 # Pry.start
 
 require "pry"
+require "dotenv"
+Dotenv.load
 Pry.start(__FILE__)
